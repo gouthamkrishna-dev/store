@@ -4,6 +4,6 @@ import {getAllUser,addUser,getUser} from "../controller/user.js"
 
 router.route("/user").get(getAllUser).post(addUser);
 
-router.route("/:id").get(getUser)
+router.route("/:userid").get(getUser);
 
 export default router;
